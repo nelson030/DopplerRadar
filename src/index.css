@@ -1,0 +1,11 @@
+html {
+  display: block;
+}
+
+body {
+  display: block;
+  position: fixed;
+  height: 99%;
+  width: 100%;
+  margin: 8px;
+}
