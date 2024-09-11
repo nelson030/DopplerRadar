@@ -20,6 +20,7 @@ Utilizing RainViewer Features:
 
 Other Features:
 
+- Update mobile experience
 - Looping through data (Playing forecast continuously)
 - Saving Previous data to display more data
   - Is it possible to show forecast for further in future?

@@ -1,3 +1,4 @@
+import "./TimeChanger.css";
 import {
   MdKeyboardArrowRight,
   MdKeyboardArrowLeft,
@@ -24,13 +25,13 @@ function TimeChanger({
       {displayedDataIdx === undefined || maxDataCount === undefined ? (
         <></>
       ) : (
-        <>
+        <div id="buttons-div">
           <button onClick={onLoadPreviousData}>
             {<MdKeyboardArrowLeft />}
           </button>
           <button onClick={refreshRadarData}>{<MdRefresh />}</button>
           <button onClick={onLoadNextData}>{<MdKeyboardArrowRight />}</button>
-        </>
+        </div>
       )}
     </div>
   );

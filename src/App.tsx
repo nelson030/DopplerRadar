@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./app.css";
+import "./App.css";
 import Map from "./components/Map";
 import { getRadarData } from "./services/api";
 import { SingleRadarData } from "./types";

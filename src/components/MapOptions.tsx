@@ -1,5 +1,6 @@
 import { SingleRadarData } from "../types";
 import TimeChanger from "./TimeChanger";
+import "./MapOptions.css";
 
 interface MapOptionsProps {
   onLoadPreviousData: () => void;
@@ -40,7 +41,7 @@ function MapOptions({
       {displayedData === undefined ? (
         <></>
       ) : (
-        <h3>
+        <h3 id="time-header">
           {convertSecondsToDate(displayedData.time)}{" "}
           {now > displayedData.time ? "(PAST)" : "(FORECAST)"}
         </h3>
